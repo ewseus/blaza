@@ -1,18 +1,9 @@
 ﻿@page "/counter"
 
 <PageTitle>Counter</PageTitle>
+<iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=f9pfV2KlJHKLGQn4" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<h1>Counter</h1>
-
-<p role="status">Current count: @currentCount</p>
-
-<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
-
-@code {
-    private int currentCount = 0;
-
-    private void IncrementCount()
-    {
-        currentCount++;
-    }
-}
